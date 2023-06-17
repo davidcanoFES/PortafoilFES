@@ -1,0 +1,264 @@
+body
+{
+    background-image: url(../media/moonwall.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.face
+{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 30%;
+    background-image: url(../media/mjf.png);
+    height: 780px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #0F8BED;
+    background-size: cover;
+}
+
+
+.logo
+{
+width: 15rem;
+}
+
+.menu
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #FEBD60;
+    font-size: 50px;
+    margin-top: 2%;
+    padding-left: 2%;
+    position: fixed;
+    background-color: transparent;
+    border: transparent;
+}
+
+.menu:hover
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #00293F;
+    font-size: 50px;
+    margin-top: 2%;
+    padding-left: 2%;
+    position: fixed;
+    background-color: transparent;
+    border: transparent;
+    border-color: #FEBD60;
+    text-shadow: 2px 2px 2px #FEBD60;
+    cursor: pointer;
+}
+
+.name
+{
+    font-family: "Open Sans", Arial, Tahoma, sans-serif;
+    font-size: 65px;
+    color: #02081a;
+    text-shadow: 1px 1px 1px #0F8BED;
+
+}
+
+.iam
+{
+    font-family: "Open Sans", Arial, Tahoma, sans-serif;
+    color: #02081a;
+    line-height: 1.4em;
+    font-size: 50px;
+}
+
+.desc
+{
+    font-family: "Open Sans", Arial, Tahoma, sans-serif;
+    font-size: 46px; 
+    color: #02081a;
+
+}
+
+
+.about {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex; 
+    justify-content: center;
+    padding-top: 1rem;
+    background-image: url(../media/aboutwpp.jpg);
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center center;
+    background-color: #0F8BED;
+}
+.about-logo {
+    margin-top: 4rem;
+    width: 40rem;
+    position: absolute;
+}
+
+.mydesc{
+    margin-top: 15rem;
+    font-family: "Open Sans", Arial, Tahoma, sans-serif;
+    font-size: 65px;
+    color: #02081a;
+    text-shadow: 1px 1px 1px #0F8BED;
+    background-size: cover;
+    background-position: center center;
+    font-family: "Open Sans", Arial, Tahoma, sans-serif;
+    font-size: 65px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #0F8BED;
+    margin-bottom: 10rem;
+}
+
+
+.top-btn 
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.img-btn
+{
+    width: 6rem;
+}
+
+.skills {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex; 
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.skill-logo
+{
+    margin-top: 10rem;
+    width: 40rem;
+    position: absolute;
+    padding-bottom: 100rem;
+}
+
+
+//////////
+
+  
+  .menu {
+    background-color: #FEBD60;
+    color: #00293F;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #sidebar {
+    margin-right:0%;
+    position: fixed;
+    top: 0;
+    left: -800px;
+    width: 8%;
+    height: 100vh;
+    background-color: #FEBD60;
+    transition: left 0.2s;
+    z-index: 9998;
+  }
+
+  .menuword
+  {
+    color: #FEBD60;
+    margin-left: 90%;
+    font-size: 10rem;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -4rem;
+    margin-left: -30%;
+  }
+  
+  #sidebar ul li {
+    padding: 15px;
+  }
+  
+  #sidebar ul li a  {
+    color: #00293F;
+    background-color: #FEBD60;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 2%;
+    padding-left: 30px;
+    padding-right:5rem;
+    position: relative;
+}
+
+
+  #sidebar ul li a:hover {
+    color: #ffffff;
+    background-color: #00293F;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #sidebar.active {
+    left: 0;
+    
+  }
+
+  .menu.hidden 
+  {
+    display: none;
+  }
+
+  #sidebar ul li {
+    margin-top: 1rem; 
+    margin-bottom: -5rem;
+  }
+  
+  #sidebar ul li a {
+    position: relative;
+    padding: 10px;
+  }
+  
+  #sidebar ul li a::before {
+    content: "";
+    position: absolute;
+    left: 80px; 
+    top: 8.8rem;
+    transform: translateY(-50%);
+    width: 3rem;
+    height: 3rem; 
+    background-color: #00293F; 
+  }
+  
+  #sidebar ul li a span {
+    padding-left: 200px;
+  }
+
+  #sidebar ul li a:hover::before {
+    background-color: #FEBD60; 
+  }
+
+  ////////////
+
